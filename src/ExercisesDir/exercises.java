@@ -65,12 +65,9 @@ public class exercises {
 
         System.out.println("Inserte su edad: ");
         int userAge = sc.nextInt();
+        boolean isLegal = userAge >= 18;
 
-        if (userAge < 18) {
-            System.out.println("Con " + userAge + " años no es mayor de edad");
-        } else {
-            System.out.println("Con " + userAge + " años es mayor de edad");
-        }
+        System.out.println("Es mayor de edad: " + isLegal);
 */
         // EXERCISE 1.9
 /*
@@ -78,12 +75,9 @@ public class exercises {
 
         System.out.println("Enter a number: ");
         int n = myNum.nextInt();
+        boolean isEven = n % 2 == 0;
 
-        if (n % 2 != 0) {
-            System.out.println("The number " + n + " is odd");
-        } else {
-            System.out.println("The number " + n + " is even");
-        }
+        System.out.println("The number is even: " + isEven);
 */
         // EXERCISE 1.10
 /*
@@ -220,3 +214,6 @@ public class exercises {
 
     }
 }
+
+
+
