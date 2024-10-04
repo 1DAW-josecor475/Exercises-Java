@@ -211,7 +211,51 @@ public class exercises {
         };
         System.out.println("El día de la semana es: " + day);
    */
+        // EXERCISE LOOP I
+/*
+        Scanner reader = new Scanner(System.in);
+        int n;
 
+        while (true) {
+            System.out.println("Inserte un número: ");
+            n = reader.nextInt();
+            if (n % 2 != 0) {
+                System.out.println("El número " + n + " es impar");
+            } else {
+                System.out.println("El número " + n + " no es impar");
+                System.out.println("Cerrando programa...");
+                break;
+            }
+        }
+*/
+        // EXERCISE LOOP II
+/*
+        Scanner sc = new Scanner(System.in);
+        int n;
+        int counterAll = 0;
+        int counterOdds = 0;
+        int sumOdds = 0;
+        int maxEvenNumber = 0;
+        int meanOddNumbers;
+
+        while (true) {
+            System.out.println("Inserte un número: ");
+            n = sc.nextInt();
+            if (n >= 0) {
+                counterAll++;
+                if (n % 2 == 0) {
+                    maxEvenNumber = Math.max(maxEvenNumber, n);
+                } else {
+                    counterOdds++;
+                    sumOdds += n;
+                }
+            } else {
+                meanOddNumbers = sumOdds / counterOdds;
+                System.out.println("Se han introducido " + counterAll + " números. \n" + "La media de los impares es: " + meanOddNumbers + ".\n" + "El mayor de los pares es: " + maxEvenNumber);
+                break;
+            }
+        }
+*/
     }
 }
 
