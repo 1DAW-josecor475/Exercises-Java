@@ -17,7 +17,7 @@ public class exercise2_11 {
             case 5 -> "Viernes";
             case 6 -> "Sábado";
             case 7 -> "Domingo";
-            default -> "El número introducido no corresponde con ningún día de la semana";
+            default -> throw new Error("El número introducido no corresponde con ningún día de la semana");
         };
         System.out.println("El día de la semana es: " + day);
     }
