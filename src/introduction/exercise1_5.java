@@ -1,4 +1,4 @@
-package ExercisesDir;
+package introduction;
 
 public class exercise1_5 {
     public static void main(String[] args) {

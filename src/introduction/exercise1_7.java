@@ -1,4 +1,4 @@
-package ExercisesDir;
+package introduction;
 import java.util.Scanner;
 public class exercise1_7 {
     public static void main(String[] args) {

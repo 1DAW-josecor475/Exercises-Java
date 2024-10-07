@@ -1,4 +1,4 @@
-package ExercisesDir;
+package introduction;
 import java.util.Scanner;
 
 public class exercise_loop_I {
@@ -9,6 +9,7 @@ public class exercise_loop_I {
         while (true) {
             System.out.println("Inserte un número: ");
             n = reader.nextInt();
+
             if (n < 0) {
                 System.out.println("No existen números primos negativos");
             } else {
