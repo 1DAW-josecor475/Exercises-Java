@@ -9,12 +9,16 @@ public class exercise_loop_I {
         while (true) {
             System.out.println("Inserte un número: ");
             n = reader.nextInt();
-            if (n % 2 != 0) {
-                System.out.println("El número " + n + " es impar");
+            if (n < 0) {
+                System.out.println("No existen números primos negativos");
             } else {
-                System.out.println("El número " + n + " no es impar");
-                System.out.println("Cerrando programa...");
-                break;
+                if (n % 2 != 0 || n == 2) {
+                    System.out.println("El número " + n + " es primo");
+                } else {
+                    System.out.println("El número " + n + " no es primo");
+                    System.out.println("Cerrando programa...");
+                    break;
+                }
             }
         }
     }
