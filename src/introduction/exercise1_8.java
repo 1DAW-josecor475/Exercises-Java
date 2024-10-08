@@ -1,3 +1,8 @@
+/*
+* Realizar una aplicación que solicite al usuario su edad y nos indique si es o no mayor de edad
+*
+* Nota: (Sin utilizar estructuras selectivas)
+*/
 package introduction;
 import java.util.Scanner;
 

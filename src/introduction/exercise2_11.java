@@ -1,3 +1,7 @@
+/*
+* Idea un programa que solicite al usuario un número del 1 al 7. Se debe mostrar el nombre del día de la semana al que
+* corresponde.
+*/
 package introduction;
 import java.util.Scanner;
 

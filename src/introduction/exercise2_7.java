@@ -1,3 +1,6 @@
+/*
+* Pedir tres números al usuario y mostrar en orden de mayor a menor.
+*/
 package introduction;
 import java.util.Scanner;
 

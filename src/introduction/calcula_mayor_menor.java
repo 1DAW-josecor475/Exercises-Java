@@ -5,7 +5,6 @@ public class calcula_mayor_menor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
-        int oldN = 0;
         int sumNumbers = 0;
         int evenNumbers = 0;
         int negativeNumbers = 0;
@@ -16,10 +15,11 @@ public class calcula_mayor_menor {
             System.out.println("Introduzca un número: ");
             n = sc.nextInt();
             sumNumbers += n;
-
-            maxNumber = Math.max(n, oldN);
-            minNumber = Math.min(n, oldN);
-            oldN = n;
+            if (n > maxNumber) {
+                maxNumber = n;
+            } else if (n < minNumber) {
+                minNumber = n;
+            }
             if (n % 2 == 0) {
                 evenNumbers++;
             }

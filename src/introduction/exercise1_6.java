@@ -1,3 +1,6 @@
+/*
+* Realiza un programa que pida dos notas por teclado y calcule su media aritmética
+*/
 package introduction;
 import java.util.Scanner;
 

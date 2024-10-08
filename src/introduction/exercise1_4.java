@@ -1,3 +1,6 @@
+/*
+* Escribir una aplicación que pida el año actual y el de nacimiento del usuario. Debe calcular la edad (suponiendo que en el año en curso ya ha cumplido los años)
+*/
 package introduction;
 import java.util.Scanner;
 

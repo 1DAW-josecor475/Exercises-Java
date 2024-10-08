@@ -1,3 +1,7 @@
+/*
+* El tipo short permite almacenar valores comprendidos entre -32768 y 32767. Escribir un programa que compruebe que el
+* comportamiento del tipo “short” es cíclico (es decir que el valor siguiente al máximo es el valor mínimo)
+*/
 package introduction;
 
 public class exercise1_5 {

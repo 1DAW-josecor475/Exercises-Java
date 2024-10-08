@@ -1,3 +1,8 @@
+/*
+* Realizar una aplicación que indique si un número introducido por teclado es o no par.
+*
+* Nota: (Sin utilizar estructuras selectivas)
+*/
 package introduction;
 import java.util.Scanner;
 
