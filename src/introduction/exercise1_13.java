@@ -1,3 +1,9 @@
+/*
+* Escribe un programa que solicite las notas del primer, segundo y tercer trimestre (han de ser valores enteros).
+* Deberá mostrar la nota media del curso tal como:
+*   - Boletín de calificaciones -> Solo parte entera.
+*   - Expediente académico -> Con decimales.
+*/
 package introduction;
 import java.util.Scanner;
 

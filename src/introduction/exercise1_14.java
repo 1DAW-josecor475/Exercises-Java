@@ -1,3 +1,6 @@
+/*
+* Realizar un programa que pida como entrada un número decimal y lo muestre redondeado al entero más próximo.
+*/
 package introduction;
 import java.util.Scanner;
 

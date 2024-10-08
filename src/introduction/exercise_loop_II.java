@@ -1,3 +1,8 @@
+/*
+* Realiza un programa que vaya pidiendo números hasta que se introduzca un número negativo y nos diga cuántos números
+* se han introducido, la media de los impares y el mayor de los pares. El número negativo sólo se utiliza para indicar
+* el final de la introducción de datos pero no se incluye en el cómputo.
+*/
 package introduction;
 import java.util.Scanner;
 
@@ -24,7 +29,9 @@ public class exercise_loop_II {
                 }
             } else {
                 meanOddNumbers = sumOdds / counterOdds;
-                System.out.println("Se han introducido " + counterAll + " números. \n" + "La media de los impares es: " + meanOddNumbers + ".\n" + "El mayor de los pares es: " + maxEvenNumber);
+                System.out.println("Se han introducido " + counterAll + " números. \n" +
+                                   "La media de los impares es: " + meanOddNumbers + ".\n" +
+                                   "El mayor de los pares es: " + maxEvenNumber);
                 break;
             }
         }

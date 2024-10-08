@@ -1,3 +1,7 @@
+/*
+* Realiza una aplicación que calcule la longitud y el área de una circunferencia. Para ello el usuario debe introducir
+* el radio, que debe contener decimales. (Haz uso de la clase Math)
+*/
 package introduction;
 import java.util.Scanner;
 public class exercise1_7 {

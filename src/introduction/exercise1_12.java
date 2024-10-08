@@ -1,3 +1,6 @@
+/*
+* Escribir un programa que pida un número por teclado y muestre su valor absoluto.
+*/
 package introduction;
 import java.util.Scanner;
 

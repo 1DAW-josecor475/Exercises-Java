@@ -1,3 +1,6 @@
+/*
+* Realiza un programa que pida un número por teclado y luego lo muestre por pantalla
+*/
 package introduction;
 import java.util.Scanner;
 
