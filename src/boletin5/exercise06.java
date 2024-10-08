@@ -4,7 +4,7 @@
 */
 package boletin5;
 
-public class exercise6 {
+public class exercise06 {
     public static void main(String[] args) {
         int evenSum = 0;
         int oddMultiply = 1;

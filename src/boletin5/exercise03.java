@@ -3,7 +3,7 @@
 */
 package boletin5;
 
-public class exercise3 {
+public class exercise03 {
     public static void main(String[] args) {
         int counter = 1;
         int i = 0;

@@ -5,7 +5,7 @@
 */
 package boletin5;
 import java.util.Scanner;
-public class exercise8 {
+public class exercise08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
