@@ -7,7 +7,7 @@ package boletin5;
 public class exercise06 {
     public static void main(String[] args) {
         int evenSum = 0;
-        int oddMultiply = 1;
+        double oddMultiply = 1;
 
         for (int i = 1; i <= 20; i++) {
             if (i % 2 == 0) {
