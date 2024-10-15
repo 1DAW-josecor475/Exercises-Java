@@ -10,15 +10,17 @@ public class exercise01 {
         Scanner sc = new Scanner(System.in);
         int hours;
         int minutes;
+        int seconds;
 
         while (true) {
             System.out.println("Introduzca un número total de segundos. Para detener el programa, introduzca 0:");
-            int seconds = sc.nextInt();
-            if (seconds == 0) {
+            int seconds_input = sc.nextInt();
+            if (seconds_input == 0) {
                 break;
             } else {
-                hours = seconds / 3600;
-                minutes = seconds / 60;
+                hours = seconds_input / 3600;
+                minutes = (seconds_input % 3600) / 60;
+                seconds = seconds_input % 60;
 
                 System.out.println("Hay " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos.");
             }
