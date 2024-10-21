@@ -15,8 +15,9 @@ public class exercise_loop_II {
         int sumOdds = 0;
         int maxEvenNumber = 0;
         int meanOddNumbers;
+        boolean isNegative = false;
 
-        while (true) {
+        while (!isNegative) {
             System.out.println("Inserte un número: ");
             n = sc.nextInt();
             if (n >= 0) {
@@ -32,7 +33,7 @@ public class exercise_loop_II {
                 System.out.println("Se han introducido " + counterAll + " números. \n" +
                                    "La media de los impares es: " + meanOddNumbers + ".\n" +
                                    "El mayor de los pares es: " + maxEvenNumber);
-                break;
+                isNegative = true;
             }
         }
     }

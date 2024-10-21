@@ -10,14 +10,14 @@ public class exercise10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
-
-        while (true) {
+        boolean isZero = false;
+        while (!isZero) {
             System.out.println("Introduzca un número: ");
             n = sc.nextInt();
 
             if (n == 0) {
                 System.out.println("Cerrando proceso...");
-                break;
+                isZero = true;
             }else if (n % 2 == 0) {
                 System.out.println("El número " + n + " es par");
             } else {

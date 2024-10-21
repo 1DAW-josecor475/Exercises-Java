@@ -11,8 +11,8 @@ public class exercise07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int nToGoal;
-
-        while (true) {
+        boolean isPrinted = false;
+        while (!isPrinted) {
             System.out.println("Introduzca un número natural de máximo dos cifras: ");
             int n = sc.nextInt();
 
@@ -22,12 +22,11 @@ public class exercise07 {
                 if (n < 10) {
                     nToGoal = 10 - n;
                     System.out.println("Al número " + n + " le falta " + nToGoal + " para ser un número de dos cifras");
-                    break;
                 } else {
                     nToGoal = 100 - n;
                     System.out.println("Al número " + n + " le falta " + nToGoal + " para ser un número de tres cifras");
-                    break;
                 }
+                isPrinted = true;
             }
         }
     }

@@ -8,12 +8,14 @@ package random_exercises;
 public class cuenta_numeros {
     public static void main(String[] args) {
         int sumNumbersPrinted = 0;
+        int counter = 0;
         for (int i = 1; i <= 30; i++) {
-            if (i < 10 || i > 20) {
+            if ((i < 10 || i > 20) && i % 2 == 0) {
                 System.out.println("Número: " + i);
                 sumNumbersPrinted += i;
+                counter++;
             }
         }
-        System.out.println("La suma de los números impresos por pantalla es: " + sumNumbersPrinted);
+        System.out.println("La suma de los " + counter + " números impresos por pantalla es: " + sumNumbersPrinted);
     }
 }

@@ -11,18 +11,20 @@ public class exercise01 {
         int hours;
         int minutes;
         int seconds;
-
-        while (true) {
-            System.out.println("Introduzca un número total de segundos. Para detener el programa, introduzca 0:");
+        boolean isOver = false;
+        while (!isOver) {
+            System.out.println("Introduzca un número total de segundos. Para detener el programa, introduzca un " +
+                               "valor negativo:");
             int seconds_input = sc.nextInt();
-            if (seconds_input == 0) {
-                break;
+            if (seconds_input < 0) {
+                System.out.println("*ERROR: El valor introducido no es válido.");
             } else {
                 hours = seconds_input / 3600;
                 minutes = (seconds_input % 3600) / 60;
                 seconds = seconds_input % 60;
 
                 System.out.println("Hay " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos.");
+                isOver = true;
             }
         }
 
