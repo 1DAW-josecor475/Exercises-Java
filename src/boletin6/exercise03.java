@@ -11,8 +11,8 @@ public class exercise03 {
         int original;
         int digit;
         int reversed = 0;
-
-        while (true) {
+        boolean isPalindromic = false;
+        while (!isPalindromic) {
             System.out.println("Introduzca un número de tres cifras: ");
             n = sc.nextInt();
             original = n;
@@ -29,9 +29,10 @@ public class exercise03 {
 
                 if (original == reversed) {
                     System.out.println("El número " + original + " es capicúa");
+                    isPalindromic = true;
                 } else {
                     System.out.println("El número " + original + " no es capicúa");
-                    break;
+
                 }
                 reversed = 0;
             }

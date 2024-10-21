@@ -13,14 +13,16 @@ public class exercise09 {
         int positiveSum = 0;
         int counter = 0;
         int mean;
-        while (true) {
+        boolean isNegative = false;
+
+        while (!isNegative) {
             System.out.println("Introduzca un número entero positivo. Si quiere parar, introduzca un número entero negativo: ");
             n = sc.nextInt();
             if(n > 0) {
                 positiveSum += n;
                 counter++;
             } else {
-                break;
+                isNegative = true;
             }
         }
         mean = positiveSum / counter;

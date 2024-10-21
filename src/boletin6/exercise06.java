@@ -10,13 +10,13 @@ public class exercise06 {
         int unit;
         int ten;
         int hundred;
+        boolean isCalculated = false;
 
-        while (true) {
+        while (!isCalculated) {
             System.out.println("Introduzca un número de tres cifras: ");
             int n = sc.nextInt();
             if (n < 100 || n > 999) {
                 System.out.println("El número introducido no es de tres cifras.");
-                break;
             } else {
                 unit = n % 10;
                 ten = (n / 10) % 10;
@@ -25,8 +25,8 @@ public class exercise06 {
                 System.out.println("La unidad es: " + unit + ".\n" +
                         "La decena es: " + ten + ".\n" +
                         "La centena es: " + hundred + ".");
+                isCalculated = true;
             }
-
 
         }
 

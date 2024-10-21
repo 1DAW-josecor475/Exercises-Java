@@ -11,13 +11,14 @@ public class exercise07 {
         Scanner sc = new Scanner(System.in);
         int n;
         int positiveSum = 0;
-        while (true) {
+        boolean isNegative = false;
+        while (!isNegative) {
             System.out.println("Introduzca un número entero positivo. Si quiere parar, introduzca un número entero negativo: ");
             n = sc.nextInt();
             if(n > 0) {
                 positiveSum += n;
             } else {
-                break;
+                isNegative = true;
             }
         }
         System.out.println("La suma de los números positivos introducidos es: " + positiveSum);
